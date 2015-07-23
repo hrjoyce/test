@@ -1,0 +1,57 @@
+/**
+ * 页面公用样式
+ */
+
+/** reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,textarea,p,th,td{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+img{border:0}
+strong,th{font-style:normal;font-weight:normal}
+ol,ul{list-style:none}
+th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;
+}
+input,textarea,select{*font-size:100%}
+i {font-style:normal;
+}
+a {text-decoration:none;}
+:focus {outline: 0;}
+
+/** */
+body {
+  font: 12px/1.5 'Microsoft YaHei', tahoma, sans-serif;
+  background: #fff;
+}
+
+.wrap {
+  width: 980px;
+  margin: auto;
+  position: relative;
+}
+
+/** 辅助样式 */
+.hidden {
+  display: none;
+}
+
+.clear {
+  clear: both;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+*html .clearfix {
+  height: 1%;
+}
+
+.clearfix {
+}
+
+

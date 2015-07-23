@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=640" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="">
+		<meta name="format-detection" content="telephone=no">
+		<title>新增账号</title>
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/nav.css">
+		<link rel="stylesheet" href="./css/accountadd.css">
+	</head>
+	<body>
+		<div class="page">
+			<div class="container">
+				<div class="account-add-title">
+					<a href="#" class="account-add-title-back" onclick="return false;"><i class="account-add-title-arrow">&lt;</i>返回</a>
+					<h1>新增账号</h1>
+				</div>
+				<div class="account-add-con">
+					<form action="/" method="post">
+					<dl>
+						<dt>类型 :</dt>
+						<dd>
+							<label class="account-add-label"><input type="radio" name="type" checked value="1" />熙城总管</label>
+								<label class="account-add-label"><input type="radio" name="type" value="2" />熙城内务</label>
+						</dd>
+					</dl>
+					<dl>
+						<dt>姓名：</dt>
+						<dd><input type="text" class="account-add-input" name="name" value="" /></dd>
+					</dl>
+					<dl>
+						<dt>手机号：</dt>
+						<dd><input type="tel" class="account-add-input" name="tel" value="" /></dd>
+					</dl>
+					<p class="account-add-tips">(初始密码为该用户手机号码)</p>
+					<div class="account-add-btns">
+						<input type="submit" class="account-add-submit" value="新增用户" />
+						<input type="reset" class="account-add-cancel" />
+					</div>
+					</form>
+				</div>
+			</div>
+			<div class="nav">
+				<a href="#" class="nav-item nav-item-list nav-item-sel">
+					<i class="nav-item-icon"></i>
+					<span class="nav-item-text">账号管理</span>
+					<i class="nav-item-split"></i>
+				</a>
+				<a href="#" class="nav-item nav-item-add">
+					<i class="nav-item-icon"></i>
+					<span class="nav-item-text">新增账号</span>
+					<i class="nav-item-split"></i>
+				</a>
+				<a href="#" class="nav-item nav-item-team">
+					<i class="nav-item-icon"></i>
+					<span class="nav-item-text">合作团队</span>
+					<i class="nav-item-split"></i>
+				</a>
+				<a href="#" class="nav-item nav-item-index">
+					<i class="nav-item-icon"></i>
+					<span class="nav-item-text">首页及城市</span>
+				</a>
+			</div>
+		</div>
+	</body>
+
+</html>

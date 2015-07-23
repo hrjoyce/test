@@ -1,0 +1,110 @@
+html{
+	height: 100%;
+	overflow: hidden;
+}
+
+body {
+	height: 100%;
+	overflow: hidden;
+}
+
+.page {
+	width: 640px;
+	height: 100%;
+  margin: 0 auto;
+	background: url(../images/login-bg.jpg) 50% 100% no-repeat;
+	background-size: contain;
+	background-size: 100% 100%;
+  position: relative;
+	overflow: hidden;
+}
+
+.login-dialog {
+	margin-top: 120px;
+	padding: 60px 50px 110px;
+}
+
+.login-title {
+	margin-bottom: 38px;
+	font-family: 'Microsoft YaHei';
+	font-weight: bold;
+	font-size: 32px;
+	color: #fff;
+}
+
+.login-title-icon {
+	float: left;
+	width: 39px;
+	height: 39px;
+	margin-top: 3px;
+	margin-right: 10px;
+	background: url(../images/global.png) 0px 0px no-repeat;
+	display: block;
+}
+
+.login-username,
+.login-password {
+	margin-top: 25px;
+	background: #fff;
+	border: 2px solid #a2a2a2;
+	border-radius: 1px;
+	position: relative;
+}
+
+.login-username-icon {
+	top: 30px;
+	left: 10px;
+	width: 25px;
+	height: 32px;
+	background: url(../images/global.png) -42px -42px no-repeat;
+	position: absolute;
+}
+
+.login-password-icon {
+	top: 30px;
+	left: 10px;
+	width: 25px;
+	height: 32px;
+	background: url(../images/global.png) 0px -42px no-repeat;
+	position: absolute;
+}
+
+.login-input {
+	width: 432px;
+	height: 24px;
+	padding: 30px 53px;
+	border: none;
+	font-size: 24px;
+}
+
+.login-remember {
+	margin-top: 36px;
+}
+
+.login-checkbox {
+	width: 29px;
+	height: 29px;
+	vertical-align: middle;
+}
+
+.login-label {
+	color: #fff;
+	vertical-align: middle;
+	font-family: 'Microsoft YaHei';
+	font-size: 23px;
+}
+
+.login-submit {
+	width: 532px;
+	height: 81px;
+	margin-top: 40px;
+	background: url(../images/login-btn.png) 0px 0px repeat-x;
+	border: none;
+	line-height: 81px;
+	font-family: 'Microsoft YaHei';
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+}

@@ -1,0 +1,34 @@
+.page {
+	width: 640px;
+  margin: 0 auto;
+}
+
+.container {
+	padding-bottom: 132px;
+}
+
+.container-table th {
+	height: 98px;
+	text-align: center;
+	border: 2px solid #ccc;
+	border-top: none;
+	font-family: 'Microsoft YaHei';
+	font-size: 28px;
+	color: #171717;
+}
+
+.container-table td {
+	height: 90px;
+	font-family: 'Microsoft YaHei';
+	font-size: 28px;
+	color: #909090;
+	text-align: center;
+}
+
+.container-table .odd {
+	background: #f4f4f4;
+}
+
+.container-table a {
+	color: #909090;
+}

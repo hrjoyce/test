@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="./css/message/main.css">
+		<script src="../../closure-library/closure/goog/base.js"></script>
+		<script src="../workdeps.js"></script>
+		<title>我要留言</title>
+	</head>
+	<body>
+		<div class="page">
+			<div class="top"></div>
+			<div class="head">
+				<div class="wrap clearfix">
+					<div class="head-left">
+						<a href="#" class="head-logo" target="_blank"></a>
+					</div>
+					<div class="head-right">
+						<i class="head-hotline-icon"></i>
+						<span class="head-hotline-text">服务热线：18964873392</span>
+					</div>
+				</div>
+			</div>
+			<div class="nav clear">
+				<div class="wrap clearfix">
+					<div class="nav-left">
+						<a href="#" class="nav-item" target="_blank">首页</a>
+						<a href="#" class="nav-item" target="_blank">关于我们</a>
+						<a href="#" class="nav-item" target="_blank">产品介绍</a>
+						<a href="#" class="nav-item" target="_blank">工程案例</a>
+						<a href="#" class="nav-item" target="_blank">联系我们</a>
+					</div>
+					<div class="nav-right">
+						<div class="nav-search clearfix" id="nav-search">
+							<form action="">
+								<div class="nav-search-btn">
+									<font class="nav-search-btn-text">供应</font>
+									<input type="hidden" class="nav-search-btn-hidden" name="type" value="1" />
+									<i class="nav-search-btn-icon"></i>
+									<i class="nav-search-btn-icon-outer"></i>
+									<div class="nav-search-btn-list">
+										<ul>
+											<li class="nav-search-btn-list-item" data-type="1">供应</li>
+											<li class="nav-search-btn-list-item" data-type="2">求购</li>
+										</ul>
+									</div>
+								</div>
+								<div class="nav-search-text">
+									<input type="text" class="nav-search-text-input" name="query" value="" placeholder="请输入产品名称……" />
+									<input type="submit" class="nav-search-text-icon" />
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container clear">
+				<div class="wrap">
+					<div class="message">
+						<div class="message-title">
+							<h2 class="message-title-text">我要留言</h2>
+							<p class="message-title-line">非常感谢您对我们的支持和关注，您的建议与意见是推动我们不断前进的动力。</p>
+						</div>
+						<div class="message-con">
+							<p class="message-con-line">我们向您承诺，我们不会将您的个人资料用于其他目的，请放心填写一下表单。</p>
+							<form action="">
+                <table class="message-table">
+                  <tbody>
+                    <tr>
+                      <td class="message-table-left">姓名</td>
+                      <td>
+                        <input type="text" class="message-input message-input-name" name="name" />
+                        <label class="message-label"><input type="radio" class="message-radio" checked name="sex" value="1" />先生</label>
+                        <label class="message-label"><input type="radio" class="message-radio" name="sex" value="2" />女士</label>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="message-table-left">手机号码</td>
+                      <td>
+                        <input type="tel" class="message-input" name="tel" />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="message-table-left">电子邮箱</td>
+                      <td>
+                        <input type="email" class="message-input" name="email" />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="message-table-left">留言类型</td>
+                      <td>
+                        <label class="message-label"><input type="radio" class="message-radio" checked name="type" value="1" />业务合作</label>
+                        <label class="message-label"><input type="radio" class="message-radio" name="type" value="2" />投诉建议</label>
+                        <label class="message-label"><input type="radio" class="message-radio" name="type" value="3" />意见反馈</label>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="message-table-left">详细描述</td>
+                      <td>
+                        <textarea name="info" class="message-textarea" cols="30" rows="10"></textarea>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <input type="submit" class="message-submit" value="提交表单 >" />
+							</form>
+              <div class="message-tip">
+                <h3 class="message-tip-title">联系我们</h3>
+                <p class="message-tip-info">如果您对我们的产品感兴趣，或是想与我们业务合作，请选择以下方式与我们联络。</p>
+                <h4 class="message-tip-line">您可以直接拨打我们的服务热线</h4>
+                <div class="message-tip-mobile"><i class="message-tip-mobile-icon"></i>18964873392</div>
+              </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="foot">
+				<div class="wrap clearfix">
+					<div class="foot-left">
+						<a href="#" class="foot-logo" target="_blank"></a>
+						<span class="foot-text">&copy;2015 esunshade.com 版权所有</span>
+					</div>
+					<div class="foot-right">
+						<a href="#" class="foot-text" target="_blank"> 法律声明</a>
+						<span class="foot-split">|</span>
+						<a href="#" class="foot-text" target="_blank">联系我们</a>
+						<span class="foot-split">|</span>
+						<a href="#" class="foot-text" target="_blank">意见反馈</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<script>
+			goog.require('work.tingyuansan.message.main');
+		</script>
+	</body>
+
+</html>

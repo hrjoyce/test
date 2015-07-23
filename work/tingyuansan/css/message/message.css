@@ -1,0 +1,157 @@
+.message {
+  padding: 37px 70px;
+  background: #fff;
+}
+
+.message-title {
+  padding-bottom: 20px;
+  border-bottom: 2px solid #252729;
+}
+
+.message-title-text {
+  font-family: 'Microsoft YaHei';
+  font-size: 28px;
+  font-weight: bold;
+  color: #2e2e2e;
+}
+
+.message-title-line {
+  margin-top: 20px;
+  font-family: 'Microsoft YaHei';
+  font-size: 12px;
+  color: #333;
+}
+
+.message-con {
+  padding: 25px 0px;
+  background: url(../../images/con-bg.png) 100% 100% no-repeat;
+  position: relative;
+}
+
+.message-con-line {
+  font-family: 'Microsoft YaHei';
+  font-size: 12px;
+  color: #333;
+}
+
+.message-table {
+  width: 405px;
+  margin-top: 25px;
+}
+
+.message-table tr {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.message-table-left {
+  width: 80px;
+  line-height: 30px;
+  font-family: 'Microsoft YaHei';
+  font-size: 14px;
+  color: #666;
+  vertical-align: top;
+}
+
+.message-input {
+  width: 305px;
+  height: 30px;
+  padding: 0px 4px;
+  background: #f2f2f2;
+  border: 1px solid #252729;
+  line-height: 30px;
+  font-family: 'Microsoft YaHei';
+  font-size: 14px;
+  color: #666;
+}
+
+.message-input-name {
+  width: 200px;
+}
+
+.message-label {
+  margin: 0px 5px;
+  font-family: 'Microsoft YaHei';
+  font-size: 12px;
+  color: #666;
+}
+
+.message-radio {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.message-textarea {
+  width: 300px;
+  height: 130px;
+  padding: 6px 4px;
+  background: #f2f2f2;
+  border: 1px solid #252729;
+  resize: none;
+}
+
+.message-submit {
+  width: 90px;
+  height: 30px;
+  margin-left: 80px;
+  background: #2b2b2b;
+  border: none;
+  font-family: 'Microsoft YaHei';
+  font-size: 12px;
+  color: #fff;
+  display: block;
+  cursor: pointer;
+}
+
+.message-tip {
+  top: 45px;
+  right: 0px;
+  width: 250px;
+  padding: 15px 20px;
+  border: 1px solid #e1e1e1;
+  position: absolute;
+}
+
+.message-tip-title {
+  font-family: 'Microsoft YaHei';
+  font-size: 14px;
+  font-weight: bold;
+  color: #404040;
+}
+
+.message-tip-info {
+  font-family: 'Microsoft YaHei';
+  font-size: 12px;
+  color: #666;
+}
+
+.message-tip-line {
+  margin-top: 25px;
+  font-family: 'Microsoft YaHei';
+  font-size: 12px;
+  font-weight: bold;
+  color: #666;
+}
+
+.message-tip-mobile {
+  margin-top: 5px;
+  line-height: 14px;
+  font-family: 'Microsoft YaHei';
+  font-size: 12px;
+  color: #323a45;
+}
+
+.message-tip-mobile-icon {
+  top: -1px;
+  width: 14px;
+  height: 14px;
+  margin-right: 10px;
+  background-image: url(../../images/global.png);
+  background-repeat: no-repeat;
+  background-position: -177px 0px;
+  vertical-align: middle;
+  display: inline-block;
+  position: relative;
+  *display: inline;
+  *zoom: 1;
+}

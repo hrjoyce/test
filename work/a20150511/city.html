@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=640" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="">
+		<meta name="format-detection" content="telephone=no">
+		<title>首页及城市</title>
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/nav.css">
+		<link rel="stylesheet" href="./css/city.css">
+	</head>
+	<body>
+		<div class="page">
+			<div class="container">
+				<div class="city-title">
+					<h1>运营城市</h1>
+				</div>
+				<div class="city-list">
+					<ul>
+						<li class="city-item">
+							<span class="city-item-name">上海</span>
+							<a href="#" class="city-item-edit" onclick="return false;">编辑</a>
+							<a href="#" class="city-item-del" onclick="return false;">删除</a>
+						</li>
+						<li class="city-item">
+							<span class="city-item-name">苏州</span>
+							<a href="#" class="city-item-edit" onclick="return false;">编辑</a>
+							<a href="#" class="city-item-del" onclick="return false;">删除</a>
+						</li>
+						<li class="city-item">
+							<span class="city-item-name">昆山</span>
+							<a href="#" class="city-item-edit" onclick="return false;">编辑</a>
+							<a href="#" class="city-item-del" onclick="return false;">删除</a>
+						</li>
+					</ul>
+				</div>
+				<div class="city-add">
+					<p class="city-line">
+						<label for="city-input" class="city-text">新增城市名：</label>
+						<input type="text" class="city-input" id="city-input" name="city" />
+					</p>
+					<p class="city-line">
+						<span class="city-text"></span>
+						<a href="#" class="city-btn" onclick="return false;">确认添加</a>
+					</p>
+				</div>
+			</div>
+			<div class="nav">
+				<a href="#" class="nav-item nav-item-list nav-item-sel">
+					<i class="nav-item-icon"></i>
+					<span class="nav-item-text">账号管理</span>
+					<i class="nav-item-split"></i>
+				</a>
+				<a href="#" class="nav-item nav-item-add">
+					<i class="nav-item-icon"></i>
+					<span class="nav-item-text">新增账号</span>
+					<i class="nav-item-split"></i>
+				</a>
+				<a href="#" class="nav-item nav-item-team">
+					<i class="nav-item-icon"></i>
+					<span class="nav-item-text">合作团队</span>
+					<i class="nav-item-split"></i>
+				</a>
+				<a href="#" class="nav-item nav-item-index">
+					<i class="nav-item-icon"></i>
+					<span class="nav-item-text">首页及城市</span>
+				</a>
+			</div>
+		</div>
+	</body>
+
+</html>

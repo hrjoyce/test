@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=640" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="">
+		<meta name="format-detection" content="telephone=no">
+		<title>详情页</title>
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/nav.css">
+		<link rel="stylesheet" href="./css/detail.css">
+	</head>
+	<body>
+		<div class="page">
+			<div class="detail-title">
+				<a href="#" class="detail-title-back" onclick="return false;">&gt;</a>
+				<h1 class="detail-title-text">南山雨果</h1>
+			</div>
+			<div class="detail-top">
+				<img src="" class="detail-img" width="620" height="400" alt="" />
+				<h3 class="detail-top-text">均价
+					<span class="detail-top-price">￥26000元/平方米</span>
+				</h3>
+				<a href="#" class="detail-top-btn" onclick="return false;">免费获取微信楼书</a>
+				<span class="detail-top-tip">区域热度
+					<i>100%</i>
+				</span>
+			</div>
+			<div class="detail-info">
+				<p class="detail-info-line">
+					<label class="detail-info-label">楼盘地址：</label>
+					<span class="detail-info-text">【宝山】阳台路99弄（阳台路水产路）</span>
+				</p>
+				<p class="detail-info-line">
+					<label class="detail-info-label">交付标准：</label>
+					<span class="detail-info-text">毛胚，精装修</span>
+				</p>
+				<p class="detail-info-line">
+					<label class="detail-info-label">本期户型：</label>
+					<span class="detail-info-text">2居室78-95平米，总价70万起
+						<br>3居室118-140平米，总价106万起</span>
+				</p>
+				<div class="detail-tags">
+					<span class="detail-tag detail-tag-red">毛坯</span>
+					<span class="detail-tag detail-tag-blue">精装修</span>
+					<span class="detail-tag detail-tag-yellow">地铁附近</span>
+				</div>
+			</div>
+			<div class="detail-news">
+				<div class="detail-news-title">独家特惠>>></div>
+				<p class="detail-news-line">报名预约可享
+					<span class="detail-news-red">预存2万抵10万</span>总价特惠</p>
+				<p class="detail-news-line">立即报名参与
+					<span class="detail-news-blue">3/7-3/8</span>周末看房团</p>
+				<p class="detail-news-line">本周末已有
+					<span class="detail-news-orange">226</span>名网友预约看房</p>
+				<a href="#" class="detail-news-btn" onclick="dialogShow();">获取独家优惠，<span>立即报名</span></a>
+			</div>
+			<div class="detail-map">
+				<p class="detail-map-text">楼盘地址：【宝山】阳台路99弄（阳台路水产路）</p>
+				<img src="" class="detail-map-img" width="500" height="274" alt="">
+			</div>
+			<div class="detail-list">
+				<div class="detail-list-title">详细信息>>></div>
+				<ul>
+					<li class="detail-list-item">产权年限：70年</li>
+					<li class="detail-list-item">交付时间：2016年年中</li>
+					<li class="detail-list-item">交付标准：毛胚，精装修</li>
+					<li class="detail-list-item">停车位：1800个</li>
+					<li class="detail-list-item">均价￥26000元/平方米</li>
+					<li class="detail-list-item">报名预约可享预存2万抵10万总价特惠</li>
+				</ul>
+				<div class="detail-list-btns">
+					<a href="#" class="detail-list-btn detail-list-btn-blue" target="_blank">致电售楼处经理</a>
+					<a href="#" class="detail-list-btn detail-list-btn-red" target="_blank">获取独家优惠</a>
+				</div>
+			</div>
+			<div class="mask" id="mask"></div>
+			<div class="dialog" id="dialog">
+				<h2 class="dialog-title">感谢关注</h2>
+				<p class="dialog-text">我们将在15分钟内与您联络</p>
+				<form action="/" method="post">
+					<p class="dialog-line">
+						<label for="dialog-input" class="dialog-label">输入手机号：</label>
+						<input type="tel" id="dialog-input" class="dialog-input" name="tel" />
+						<div class="dialog-btns">
+							<a href="#" class="dialog-cancel" onclick="dialogHide();">取消</a>
+							<input type="submit" class="dialog-submit" value="确认报名" />
+						</div>
+					</p>
+				</form>
+			</div>
+		</div>
+		
+		<script>
+			var mask = document.getElementById('mask');
+			var dialog = document.getElementById('dialog');
+			
+			function dialogShow() {
+				mask.style.display = 'block';
+				dialog.style.display = 'block';
+			}
+			
+			function dialogHide() {
+				mask.style.display = 'none';
+				dialog.style.display = 'none';
+			}
+		</script>
+	</body>
+
+</html>

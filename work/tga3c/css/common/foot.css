@@ -1,0 +1,12 @@
+.tga3c-foot {
+  width: 100%;
+  padding: 19px 0px;
+  background: #363636;
+}
+.tga3c-foot-line {
+  line-height: 20px;
+  text-align: center;
+  font-family: 'Microsoft YaHei';
+  font-size: 12px;
+  color: #ccc;
+}

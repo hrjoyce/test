@@ -1,0 +1,229 @@
+.list {
+  padding-bottom: 30px;
+}
+.list-banner {
+  width: 980px;
+  height: 377px;
+  overflow: hidden;
+}
+.list-banner-img {
+  width: 100%;
+  height: 100%;
+  background: #ddd;
+  display: block;
+}
+.list-filters {
+  height: 150px;
+  margin: 20px 10px;
+  border: 1px solid #d2d2d2;
+}
+.list-filters-line {
+  height: 24px;
+  margin: 0 20px;
+  padding: 13px 0 7px;
+  border-bottom: 1px dashed #d2d2d2;
+  line-height: 24px;
+  font-size: 16px;
+}
+.list-filters-line dl {
+  height: 24px;
+  position: relative;
+}
+.list-filters-line dt {
+  float: left;
+  margin-right: 5px;
+  font-weight: bold;
+  color: #323232;
+}
+.list-filters-line dd {
+  float: left;
+  margin-right: 14px;
+}
+.list-filter {
+  color: #6c6c6c;
+}
+.list-filter-selected {
+  font-weight: bold;
+  color: #ff6600;
+}
+.list-control {
+  height: 44px;
+  margin: 10px;
+  border: 1px solid #d2d2d2;
+  border-top: 2px solid #00a2e8;
+}
+.list-control-tags {
+  float: left;
+  height: 44px;
+}
+.list-control-tags li {
+  float: left;
+  display: inline;
+}
+.list-control-tag {
+  width: 103px;
+  height: 44px;
+  border-right: 1px solid #d2d2d2;
+  line-height: 44px;
+  font-size: 15px;
+  color: #323232;
+  text-align: center;
+  display: block;
+}
+.list-control-tag-selected {
+  color: #ff6600;
+}
+.list-control-pages {
+  float: right;
+  height: 44px;
+  padding-right: 10px;
+}
+.list-control-pages li {
+  float: left;
+  display: inline;
+}
+.list-control-page {
+  width: 55px;
+  height: 44px;
+  line-height: 44px;
+  font-size: 14px;
+  color: #323232;
+  text-align: center;
+  display: block;
+}
+.list-con {
+  padding: 0 10px;
+}
+.list-item {
+  height: 179px;
+  border-bottom: 1px dashed #d2d2d2;
+  position: relative;
+}
+.list-item-left {
+  top: 0;
+  left: 0;
+  width: 274px;
+  height: 148px;
+  padding-top: 10px;
+  padding-bottom: 21px;
+  position: absolute;
+  overflow: hidden;
+}
+.list-item-left img {
+  width: 100%;
+  height: 100%;
+  background: #ddd;
+  display: block;
+}
+.list-item-center {
+  width: 445px;
+  height: 162px;
+  padding-top: 17px;
+  padding-left: 295px;
+  padding-right: 220px;
+  overflow: hidden;
+}
+.list-item-line {
+  width: 445px;
+  line-height: 35px;
+  font-size: 16px;
+  color: #424242;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+  overflow: hidden;
+}
+.list-item-tip {
+  color: #8e8e8e;
+}
+.list-item-title {
+  vertical-align: middle;
+  font-size: 19px;
+  font-weight: bold;
+  color: #4f4f4f;
+}
+.list-item-icon {
+  width: 35px;
+  height: 18px;
+  margin-left: 1px;
+  background: url(../../images/icon-recommend.jpg) 0 0 no-repeat;
+  line-height: 18px;
+  vertical-align: middle;
+  font-size: 12px;
+  font-style: normal;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+.list-item-right {
+  top: 0;
+  right: 0;
+  width: 212px;
+  height: 179px;
+  position: absolute;
+  overflow: hidden;
+}
+.list-item-price {
+  margin-top: 49px;
+  padding-left: 14px;
+  font-size: 15px;
+  color: #6c6c6c;
+  text-align: center;
+}
+.list-item-price strong {
+  font-size: 27px;
+  font-family: 'Arial';
+  color: #ff6600;
+}
+.list-item-btn {
+  width: 184px;
+  height: 40px;
+  margin: 16px auto;
+  background: url(../../images/list-item-btn.jpg) 0 0 no-repeat;
+  line-height: 40px;
+  font-size: 17px;
+  color: #fff;
+  text-align: center;
+  display: block;
+}
+.list-pages {
+  height: 29px;
+  padding: 20px 10px;
+}
+.list-pages-count {
+  float: left;
+  font-size: 15px;
+  color: #727272;
+}
+.list-pages-count strong {
+  color: #00a2e8;
+}
+.list-pages-inner {
+  float: right;
+  height: 29px;
+}
+.list-page {
+  margin-right: 3px;
+  padding: 4px 5px;
+  border: 1px solid #b0b0b0;
+  border-radius: 3px;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #b0b0b0;
+}
+.list-page-prev,
+.list-page-next {
+  padding: 4px 10px;
+  margin-right: 5px;
+}
+.list-page-selected {
+  background: #00a2e8;
+  border: 1px solid #00a2e8;
+  color: #fff;
+}
+.list-page-split {
+  font-size: 14px;
+  color: #b0b0b0;
+}

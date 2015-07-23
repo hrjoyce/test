@@ -1,0 +1,356 @@
+.page {
+	width: 640px;
+  margin: 0 auto;
+	background: #f6f6f6;
+	position: relative;
+}
+
+.detail-title {
+	height: 93px;
+	background: #ff3334;
+	position: relative;
+}
+
+.detail-title-back {
+	top: 10px;
+	left: 10px;
+	font-family: '幼圆';
+	font-size: 60px;
+	color: #fff;
+	position: absolute;
+}
+
+.detail-title-text {
+	line-height: 93px;
+	font-family: 'Microsoft YaHei';
+	font-size: 35px;
+	color: #fff;
+	text-align: center;
+}
+
+.detail-top {
+	padding: 20px 10px;
+	background: #fff;
+	border-bottom: 2px solid #d6d6d6;
+	position: relative;
+}
+
+.detail-img {
+	width: 620px;
+	height: 400px;
+	display: block;
+}
+
+.detail-top-text {
+	margin-top: 20px;
+	font-family: 'Microsoft YaHei';
+	font-size: 30px;
+	color: #959595;
+}
+
+.detail-top-price {
+	font-size: 40px;
+	color: #ff3031;
+}
+
+.detail-top-btn {
+	width: 314px;
+	height: 45px;
+	margin-top: 10px;
+	background: #02b1e8;
+	border-radius: 3px;
+	line-height: 45px;
+	font-family: 'Microsoft YaHei';
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+	display: block;
+}
+
+.detail-top-tip {
+	bottom: 20px;
+	right: 20px;
+	width: 84px;
+	height: 64px;
+	padding: 16px 8px;
+	background: #ff9f36;
+	border: 5px solid #d9d9d9;
+	border-radius: 98px;
+	line-height: 28px;
+	font-family: 'Microsoft YaHei';
+	font-size: 20px;
+	color: #fff;
+	display: block;
+	position: absolute;
+}
+
+.detail-top-tip i {
+	font-size: 33px;
+}
+
+.detail-info {
+	padding: 30px 10px;
+	background: #fff;
+	border-bottom: 2px solid #d6d6d6;	
+}
+
+.detail-info-line {
+	margin-bottom: 20px;
+	font-family: 'Microsoft YaHei';
+	font-size: 24px;
+	color: #959595;
+}
+
+.detail-info-label {
+	width: 120px;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.detail-info-text {
+	width: 490px;
+	display: inline-block;
+}
+
+.detail-tags {
+	margin-top: 40px;
+}
+
+.detail-tag {
+	margin: 0px 10px;
+	padding: 10px 20px;
+	border-radius: 2px;
+	font-family: 'Microsoft YaHei';
+	font-size: 30px;
+}
+
+.detail-tag-red {
+	border: 1px solid #ff3334;
+	color: #ff3334;
+}
+
+.detail-tag-blue {
+	border: 1px solid #43c5ff;
+	color: #43c5ff;
+}
+
+.detail-tag-yellow {
+	border: 1px solid #ff9f36;
+	color: #ff9f36;
+}
+
+.detail-news {
+	margin-top: 30px;
+	padding: 10px;
+	background: #fff;
+	border-top: 2px solid #d6d6d6;	
+	border-bottom: 2px solid #d6d6d6;	
+}
+
+.detail-news-title {
+	height: 65px;
+	line-height: 60px;
+	font-family: 'Microsoft YaHei';
+	font-size: 30px;
+	color: #373737;
+	border-bottom: 2px solid #d6d6d6;
+}
+
+.detail-news-line {
+	margin-bottom: 20px;
+	font-family: 'Microsoft YaHei';
+	font-size: 24px;
+	color: #959595;
+}
+
+.detail-news-red {
+	font-size: 30px;
+	color: #ff3e44;
+}
+
+.detail-news-blue {
+	font-size: 30px;
+	color: #02b1e8;
+}
+
+.detail-news-orange {
+	font-size: 30px;
+	color: #fa8b1e;
+}
+
+.detail-news-btn {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px 105px;
+	background: #ff3e44;
+	border-radius: 6px;
+	font-family: 'Microsoft YaHei';
+	font-size: 33px;
+	color: #fff;
+	display: inline-block;
+}
+
+.detail-news-btn span {
+	font-size: 40px;
+}
+
+.detail-map {
+	margin-top: 30px;
+	padding: 10px;
+	background: #fff;
+	border-top: 2px solid #d6d6d6;	
+	border-bottom: 2px solid #d6d6d6;	
+}
+
+.detail-map-text {
+	font-family: 'Microsoft YaHei';
+	font-size: 25px;
+	color: #404a54;
+}
+
+.detail-map-img {
+	width: 500px;
+	height: 274px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	border: 1px solid #c7c7c7;
+	display: block;
+}
+
+.detail-list {
+	padding: 10px;
+	padding-bottom: 30px;
+	background: #fff;
+}
+
+.detail-list-title {
+  height: 65px;
+  line-height: 60px;
+  font-family: 'Microsoft YaHei';
+  font-size: 30px;
+  color: #373737;
+  border-bottom: 2px solid #d6d6d6;
+}
+
+.detail-list ul {
+	margin-top: 20px;
+}
+
+.detail-list-item {
+	margin-bottom: 20px;
+  font-family: 'Microsoft YaHei';
+  font-size: 24px;
+  color: #959595;
+}
+
+.detail-list-btns {
+	margin-top: 20px;
+}
+
+.detail-list-btn {
+	margin: 0px 25px;
+	padding: 20px 25px;
+	border-radius: 4px;
+  font-family: 'Microsoft YaHei';
+  font-size: 30px;
+  color: #fff;
+	display: inline-block;
+}
+
+.detail-list-btn-blue {
+	background: #02b1e8;
+}
+.detail-list-btn-red {
+	background: #ff3031;
+}
+
+.mask {
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.3);
+	display: none;
+	position: absolute;
+}
+
+.dialog {
+	top: 50%;
+	left: 50%;
+	margin-top: -194px;
+	margin-left: -292px;
+	padding: 50px 40px 80px;
+	width: 505px;
+	height: 258px;
+	background: #fff;
+	border-radius: 18px;
+	display: none;
+	position: fixed;
+}
+
+.dialog-title {
+  font-family: 'Microsoft YaHei';
+  font-size: 30px;
+	font-weight: bold;
+  color: #3e3e3e;
+}
+
+.dialog-text {
+	margin-top: 10px;
+  font-family: 'Microsoft YaHei';
+  font-size: 20px;
+	color: #3e3e3e;
+}
+
+.dialog-line {
+	margin-top: 30px;
+}
+
+.dialog-label {
+  font-family: 'Microsoft YaHei';
+  font-size: 20px;
+	color: #3e3e3e;
+	vertical-align: middle;
+}
+
+.dialog-input {
+	width: 310px;
+	height: 30px;
+	padding: 10px;
+	background: #fff;
+	border: 1px solid #b6b6b6;
+  font-size: 20px;
+}
+
+.dialog-btns {
+	margin-top: 40px;
+}
+
+.dialog-cancel {
+	width: 248px;
+	height: 60px;
+	background: #c5c5c5;
+	border: none;
+	line-height: 60px;
+  font-family: 'Microsoft YaHei';
+  font-size: 30px;
+	color: #8c8c8c;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.dialog-submit {
+	width: 248px;
+	height: 60px;
+	background: #009dce;
+	border: none;
+	line-height: 60px;
+  font-family: 'Microsoft YaHei';
+  font-size: 30px;
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	cursor: pointer;
+}

@@ -1,0 +1,78 @@
+.nav {
+	bottom: 0px;
+	width: 600px;
+	padding: 0px 20px;
+	background: #333;
+	font-size: 0px;
+	position: fixed;
+}
+
+.nav-item {
+	height: 40px;
+	padding-top: 92px;
+	font-family: 'Mircosoft YaHei';
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.nav-item-icon {
+	top: 15px;
+	left: 50%;
+	width: 72px;
+	height: 72px;
+	margin-left: -36px;
+	background-image: url(../images/global.png);
+	background-repeat: no-repeat;
+	display: block;
+	position: absolute;
+}
+
+.nav-item-list {
+	width: 150px;
+}
+
+.nav-item-list .nav-item-icon {
+	background-position: 0px -86px;
+}
+
+.nav-item-add {
+	width: 149px;
+}
+
+.nav-item-add .nav-item-icon {
+	background-position: -82px -86px;
+}
+
+.nav-item-team {
+	width: 145px;
+}
+
+.nav-item-team .nav-item-icon {
+	background-position: 0px -158px;
+}
+
+.nav-item-index {
+	width: 145px;
+}
+
+.nav-item-index .nav-item-icon {
+	background-position: -82px -158px;
+}
+
+.nav-item-sel {
+	background: #cdb38b;
+	cursor: default;
+}
+
+.nav-item-split {
+	top: 0px;
+	right: 0px;
+	width: 1px;
+	height: 132px;
+	background: url(../images/global.png) -154px 0px no-repeat;
+	position: absolute;
+}

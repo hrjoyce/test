@@ -1,0 +1,24 @@
+{namespace work.template.a20150207.popup}
+
+/**
+ * @param item
+ */
+{template .create}
+<h3 class="popup-title">{$item.title}</h3>
+<div class="popup-con">
+  <ul>
+    {foreach $image in $item.images}
+      {if index($image) == $item.index}
+      <li class="popup-con-item popup-con-item-selected"><img src="{$image}" /></li>
+      {else}      
+      <li class="popup-con-item"><img src="{$image}" /></li>
+      {/if}
+    {/foreach}
+  </ul>
+  <a href="#" class="popup-prev" onclick=";return false;"></a>
+  <a href="#" class="popup-next" onclick=";return false;"></a>
+</div>
+<div class="popup-foot">
+  <a href="#" class="popup-close" onclick=";return false;">返回列表<i class="popup-close-icon"></i></a>
+</div>
+{/template}

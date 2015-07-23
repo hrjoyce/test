@@ -1,0 +1,131 @@
+.tga3c-top {
+  height: 601px;
+  margin-top: 30px;
+}
+.tga3c-top-left {
+  float: left;
+  width: 747px;
+  border: 1px solid #b5b5b5;
+  border-right: 0;
+}
+.tga3c-top-import {
+  width: 747px;
+  height: 299px;
+  overflow: hidden;
+}
+.tga3c-top-import img {
+  width: 100%;
+  height: 100%;
+  background: #ddd;
+  display: block;
+}
+.tga3c-top-split {
+  width: 100%;
+  height: 1px;
+  background: #b5b5b5;
+  display: block;
+}
+.tga3c-top-right {
+  float: right;
+  width: 250px;
+  border: 1px solid #b5b5b5;
+}
+.tga3c-top-rank-title {
+  width: 250px;
+  height: 99px;
+}
+.tga3c-top-rank-item {
+  width: 250px;
+  height: 100px;
+}
+.tga3c-top-rank-title img,
+.tga3c-top-rank-item img {
+  width: 100%;
+  height: 100%;
+  background: #ddd;
+  display: block;
+}
+.tga3c-list {
+  width: 998px;
+  height: 358px;
+  margin-top: 20px;
+  border: 1px solid #b5b5b5;
+  overflow: hidden;
+}
+.tga3c-list ul {
+  width: 1100px;
+}
+.tga3c-list-item {
+  float: left;
+  width: 249px;
+  height: 314px;
+  padding-bottom: 44px;
+  border-right: 1px solid #b5b5b5;
+  position: relative;
+}
+.tga3c-list-item img {
+  width: 100%;
+  height: 100%;
+  background: #ddd;
+  display: block;
+}
+.tga3c-list-item-title {
+  bottom: 0px;
+  left: 0px;
+  width: 219px;
+  padding: 15px;
+  background: #f3f3f3;
+  position: absolute;
+}
+.tga3c-list-item-title h2 {
+  height: 14px;
+  line-height: 14px;
+  font-family: 'Microsoft YaHei';
+  font-size: 14px;
+  color: #666;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+  overflow: hidden;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.tga3c-list-item:hover .tga3c-list-item-title h2 {
+  height: 28px;
+  white-space: normal;
+}
+.tga3c-list-item-arrow {
+  top: -26px;
+  left: 50%;
+  width: 0px;
+  height: 0px;
+  margin-left: -13px;
+  border: 13px dashed transparent;
+  border-bottom: 13px solid #f3f3f3;
+  display: block;
+  position: absolute;
+  overflow: hidden;
+}
+.tga3c-list-item-import {
+  width: 748px;
+  height: 358px;
+  padding-bottom: 0px;
+}
+.tga3c-bottom {
+  height: 74px;
+  margin-top: 20px;
+}
+.tga3c-bottom-item {
+  float: left;
+  width: 249px;
+  height: 74px;
+  border-right: 1px solid #6e6f6f;
+  display: block;
+}
+.tga3c-bottom-item img {
+  width: 100%;
+  height: 100%;
+  background: #ddd;
+  display: block;
+}

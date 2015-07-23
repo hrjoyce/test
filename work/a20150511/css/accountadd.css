@@ -1,0 +1,116 @@
+.page {
+	width: 640px;
+  margin: 0 auto;
+}
+
+.container {
+	padding-bottom: 132px;
+}
+
+.account-add-title {
+	height: 80px;
+	border-bottom: 2px solid #e3e3e3;
+	line-height: 80px;
+	font-family: 'Microsoft YaHei';
+	font-size: 30px;
+	color: #262626;
+	text-align: center;
+	position: relative;
+}
+
+.account-add-title-back {
+	top: 0px;
+	left: 10px;
+	font-family: 'Microsoft YaHei';
+	font-size: 30px;
+	color: #62d8ff;
+	position: absolute;
+}
+
+.account-add-title-arrow {
+	font-family: '幼圆';
+	font-size: 60px;
+	vertical-align: middle;
+}
+
+.account-add-con {
+	margin-top: 50px;
+}
+
+.account-add-con dl {
+	margin-top: 30px;
+	padding: 0px 20px;
+	font-family: 'Microsoft YaHei';
+	font-size: 28px;
+	color: #171717;
+	position: relative;	
+}
+
+.account-add-con dt {
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+.account-add-con dd {
+	padding-left: 110px;
+}
+
+.account-add-label {
+	display: block;
+}
+
+.account-add-label input {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+
+.account-add-input {
+	width: 250px;
+	line-height: 20px;
+	padding: 4px 15px;
+	font-size: 20px;
+}
+
+.account-add-tips {
+	margin-top: 10px;
+	font-family: 'Microsoft YaHei';
+	font-size: 28px;
+	color: #a5a5a5;
+}
+
+.account-add-btns {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.account-add-submit {
+	width: 190px;
+	height: 70px;
+	margin: 0px 40px;
+	background: #ff3131;
+	border: none;
+	line-height: 70px;
+	font-family: 'Microsoft YaHei';
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.account-add-cancel {
+	width: 190px;
+	height: 70px;
+	margin: 0px 40px;
+	background: #b1b1b1;
+	border: none;
+	line-height: 70px;
+	font-family: 'Microsoft YaHei';
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+	display: inline-block;
+	cursor: pointer;
+}
